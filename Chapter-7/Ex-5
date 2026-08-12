@@ -1,0 +1,13 @@
+//5.Stringify an object, then parse it back, and prove the round trip worked by printing a property.
+
+const student = {
+    name: "Tahiya",
+    dept: "CSE",
+    semester: "Final Year"
+};
+
+const jsonString = JSON.stringify(student);
+
+const newStudent = JSON.parse(jsonString);
+
+console.log(newStudent.name);
