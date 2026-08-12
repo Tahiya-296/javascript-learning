@@ -1,0 +1,15 @@
+//4. Write a function that takes an array of product objects and returns the total stock using reduce.
+
+const products = [
+    { name: "Laptop", stock: 5 },
+    { name: "Mouse", stock: 10 },
+    { name: "Keyboard", stock: 7 }
+];
+
+function totalStock(products) {
+    return products.reduce((total, product) => {
+        return total + product.stock;
+    }, 0);
+}
+
+console.log(totalStock(products));
