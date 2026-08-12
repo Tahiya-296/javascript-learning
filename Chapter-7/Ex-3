@@ -1,0 +1,16 @@
+//3. Destructure name and semester out of your object in one line.
+
+const student = {
+    name: "Tahiya",
+    dept: "CSE",
+    semester: "Final Year",
+    skills: ["JavaScript", "Java", "Python"]
+};
+
+const { name, semester } = student;
+
+console.log(name);
+console.log(semester);
+
+
+
