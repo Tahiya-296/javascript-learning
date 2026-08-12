@@ -1,0 +1,14 @@
+//2. Add a method describe() to that object that returns a summary string using this.
+
+const student = {
+    name: "Tahiya",
+    dept: "CSE",
+    semester: "Final Year",
+    skills: ["JavaScript", "C", "C++"],
+
+    describe: function() {
+        return `My name is ${this.name}. I study ${this.dept}. I am in ${this.semester}. My skills are ${this.skills.join(", ")}.`;
+    }
+};
+
+console.log(student.describe());
