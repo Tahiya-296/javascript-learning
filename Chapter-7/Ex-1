@@ -1,0 +1,13 @@
+//1. Model yourself as an object with name, dept, semester, and skills (an array). Print a sentence
+using its properties.
+
+const student = {
+    name: "Tahiya",
+    dept: "CSE",
+    semester: "Final Year",
+    skills: ["JavaScript", "C", "C++"]
+};
+
+console.log(
+    `My name is ${student.name}. I study ${student.dept}. I am in ${student.semester}. My skills are ${student.skills.join(", ")}.`
+);
